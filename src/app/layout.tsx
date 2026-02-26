@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   description: "Portfolio of Felipe Reis - Senior Full Stack Software Engineer specialized in C#, .NET, and JavaScript. Check out my projects and get in touch.",
   keywords: ["Felipe Reis", "Software Engineer", "Full Stack", "C#", ".NET", "JavaScript", "TypeScript", "Portfolio"],
   authors: [{ name: "Felipe Reis" }],
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/icon.svg',
+  },
   openGraph: {
     title: "Felipe Reis | Senior Full Stack Software Engineer",
     description: "Portfolio of Felipe Reis - Senior Full Stack Software Engineer specialized in C#, .NET, and JavaScript.",
