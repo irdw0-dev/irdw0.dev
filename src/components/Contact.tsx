@@ -8,25 +8,25 @@ const contactLinks = [
     name: 'GitHub',
     url: 'https://github.com/irdw0-dev',
     icon: Github,
-    description: 'Confira meus projetos',
+    description: 'Check out my projects',
   },
   {
     name: 'LinkedIn',
     url: 'https://linkedin.com/in/irdw0-dev',
     icon: Linkedin,
-    description: 'Conecte-se comigo',
+    description: 'Connect with me',
   },
   {
     name: 'Email',
     url: 'mailto:contato@irdw0.dev',
     icon: Mail,
-    description: 'Entre em contato',
+    description: 'Get in touch',
   },
 ];
 
 export default function Contact() {
   return (
-    <section id="contato" className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -36,10 +36,10 @@ export default function Contact() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Vamos conversar?
+            Let's talk?
           </h2>
           <p className="text-[#a1a1aa] text-lg">
-            Estou sempre aberto a novas oportunidades e colaborações.
+            I'm always open to new opportunities and collaborations.
           </p>
         </motion.div>
 
@@ -90,10 +90,10 @@ export default function Contact() {
           className="text-center pt-12 border-t border-[#1a1a1a]"
         >
           <p className="text-[#71717a] text-sm">
-            © {new Date().getFullYear()} Felipe Reis. Todos os direitos reservados.
+            © {new Date().getFullYear()} Felipe Reis. All rights reserved.
           </p>
           <p className="text-[#71717a]/60 text-xs mt-2">
-            Desenvolvido com Next.js, Tailwind CSS e muito ☕
+            Built with Next.js, Tailwind CSS and lots of ☕
           </p>
         </motion.div>
       </div>

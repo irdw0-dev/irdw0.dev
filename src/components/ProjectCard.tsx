@@ -22,7 +22,7 @@ const languageColors: Record<string, string> = {
 export default function ProjectCard({ repo, index }: ProjectCardProps) {
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString('pt-BR', {
+    return date.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'short',
     });
@@ -58,7 +58,7 @@ export default function ProjectCard({ repo, index }: ProjectCardProps) {
         </div>
 
         <p className="text-[#a1a1aa] text-sm mb-4 line-clamp-2 min-h-[40px]">
-          {repo.description || 'Sem descrição disponível'}
+          {repo.description || 'No description available'}
         </p>
 
         <div className="flex items-center justify-between text-sm">
@@ -90,7 +90,7 @@ export default function ProjectCard({ repo, index }: ProjectCardProps) {
 
         <div className="mt-4 pt-4 border-t border-[#1a1a1a]">
           <span className="text-xs text-[#71717a]">
-            Atualizado em {formatDate(repo.updated_at)}
+            Updated on {formatDate(repo.updated_at)}
           </span>
         </div>
       </a>

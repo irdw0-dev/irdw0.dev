@@ -47,14 +47,14 @@ const skills = [
   { name: 'Garnet', icon: Cpu, category: 'tool' },
   { name: 'Grafana', icon: Monitor, category: 'tool' },
   { name: 'Seq', icon: Monitor, category: 'tool' },
-  { name: 'POO', icon: Code2, category: 'tool' },
+  { name: 'OOP', icon: Code2, category: 'tool' },
 ];
 
 const categories = {
-  language: 'Linguagens',
+  language: 'Languages',
   framework: 'Frameworks',
-  database: 'Bancos de Dados',
-  tool: 'Ferramentas',
+  database: 'Databases',
+  tool: 'Tools',
 };
 
 export default function Skills() {
@@ -88,7 +88,7 @@ export default function Skills() {
   }, {} as Record<string, typeof skills>);
 
   return (
-    <section id="habilidades" className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -102,11 +102,11 @@ export default function Skills() {
               <Layers className="w-6 h-6 text-[#8b5cf6]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-white">
-              Habilidades
+              Skills
             </h2>
           </div>
           <p className="text-[#a1a1aa] text-lg max-w-2xl">
-            Tecnologias e ferramentas que utilizo no dia a dia para desenvolver soluções robustas e escaláveis.
+            Technologies and tools I use daily to develop robust and scalable solutions.
           </p>
         </motion.div>
 

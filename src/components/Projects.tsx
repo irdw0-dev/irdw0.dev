@@ -21,7 +21,7 @@ export default function Projects({ repos }: ProjectsProps) {
   };
 
   return (
-    <section id="projetos" className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -35,11 +35,11 @@ export default function Projects({ repos }: ProjectsProps) {
               <Code2 className="w-6 h-6 text-[#8b5cf6]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-white">
-              Projetos
+              Projects
             </h2>
           </div>
           <p className="text-[#a1a1aa] text-lg max-w-2xl">
-            Alguns dos meus projetos mais recentes no GitHub. Cada um representa um desafio único e uma oportunidade de aprendizado.
+            Some of my most recent projects on GitHub. Each one represents a unique challenge and a learning opportunity.
           </p>
         </motion.div>
 
@@ -68,7 +68,7 @@ export default function Projects({ repos }: ProjectsProps) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 border border-[#8b5cf6]/50 text-[#8b5cf6] rounded-full font-medium transition-all duration-300 hover:bg-[#8b5cf6]/10 hover:border-[#8b5cf6]"
             >
-              Ver todos os projetos
+              View all projects
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>

@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Felipe Reis | Desenvolvedor Full Stack",
-  description: "Portfólio de Felipe Reis - Desenvolvedor Full Stack especializado em C#, Java e JavaScript. Confira meus projetos e entre em contato.",
-  keywords: ["Felipe Reis", "Desenvolvedor", "Full Stack", "C#", "Java", "JavaScript", "Portfolio"],
+  title: "Felipe Reis | Senior Full Stack Software Engineer",
+  description: "Portfolio of Felipe Reis - Senior Full Stack Software Engineer specialized in C#, .NET, and JavaScript. Check out my projects and get in touch.",
+  keywords: ["Felipe Reis", "Software Engineer", "Full Stack", "C#", ".NET", "JavaScript", "TypeScript", "Portfolio"],
   authors: [{ name: "Felipe Reis" }],
   openGraph: {
-    title: "Felipe Reis | Desenvolvedor Full Stack",
-    description: "Portfólio de Felipe Reis - Desenvolvedor Full Stack especializado em C#, Java e JavaScript.",
+    title: "Felipe Reis | Senior Full Stack Software Engineer",
+    description: "Portfolio of Felipe Reis - Senior Full Stack Software Engineer specialized in C#, .NET, and JavaScript.",
     type: "website",
-    url: "https://felipereis.dev",
+    url: "https://irdw0.dev",
   },
 };
 
@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
