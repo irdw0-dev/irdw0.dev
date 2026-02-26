@@ -97,7 +97,7 @@ export default function Hero({ name, bio, avatarUrl, githubUrl }: HeroProps) {
           </a>
           
           <a
-            href="https://linkedin.com/in/lipecoding"
+            href="https://linkedin.com/in/irdw0-dev"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 border border-[#8b5cf6]/50 text-[#8b5cf6] rounded-full font-medium transition-all duration-300 hover:bg-[#8b5cf6]/10 hover:border-[#8b5cf6] hover:scale-105"

@@ -136,7 +136,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 **Felipe Reis**
 
 - GitHub: [@irdw0-dev](https://github.com/irdw0-dev)
-- LinkedIn: [lipecoding](https://linkedin.com/in/lipecoding)
+- LinkedIn: [irdw0-dev](https://linkedin.com/in/irdw0-dev)
 - Website: [irdw0.dev](https://my-app-eight-weld-88.vercel.app)
 
 ---

@@ -12,13 +12,13 @@ const contactLinks = [
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/lipecoding',
+    url: 'https://linkedin.com/in/irdw0-dev',
     icon: Linkedin,
     description: 'Conecte-se comigo',
   },
   {
     name: 'Email',
-    url: 'mailto:contato@felipereis.dev',
+    url: 'mailto:contato@irdw0.dev',
     icon: Mail,
     description: 'Entre em contato',
   },
