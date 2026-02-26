@@ -73,7 +73,7 @@ export default function Hero({ name, bio, avatarUrl, githubUrl }: HeroProps) {
           variants={itemVariants}
           className="text-xl sm:text-2xl text-[#8b5cf6] font-medium mb-6"
         >
-          Desenvolvedor Full Stack
+          Engenheiro de Software FullStack Pleno
         </motion.p>
 
         {/* Bio */}
@@ -81,7 +81,7 @@ export default function Hero({ name, bio, avatarUrl, githubUrl }: HeroProps) {
           variants={itemVariants}
           className="text-lg text-[#a1a1aa] max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          {bio || 'Desenvolvedor apaixonado por criar soluções inovadoras. Especializado em C#, Java e JavaScript, com experiência em desenvolvimento de APIs REST e aplicações web.'}
+          {bio || 'Desenvolvedor FullStack Pleno apaixonado pela criação de soluções de software. Com base sólida em C# e SQL, focado no desenvolvimento de sistemas escaláveis e eficientes utilizando o ecossistema .NET. Experiência em SignalR, Garnet, Flutter, MongoDB e Java.'}
         </motion.p>
 
         {/* Social Links */}
