@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# irdw0.dev
 
-## Getting Started
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel-black?style=flat-square&logo=vercel)](https://my-app-eight-weld-88.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 
-First, run the development server:
+Portfolio pessoal desenvolvido com Next.js, TypeScript e Tailwind CSS. Design minimalista com tema escuro e roxo como cor de destaque.
+
+## 🌐 Demo
+
+Acesse: [https://my-app-eight-weld-88.vercel.app](https://my-app-eight-weld-88.vercel.app)
+
+## ✨ Funcionalidades
+
+- **Fundo Interativo**: Spotlight roxo que segue o movimento do mouse
+- **Design Responsivo**: Adaptado para mobile, tablet e desktop
+- **Animações Suaves**: Transições elegantes com Framer Motion
+- **Integração GitHub**: Projetos carregados dinamicamente da API do GitHub
+- **Tema Escuro**: Paleta de cores sofisticada com roxo como accent
+- **SEO Otimizado**: Meta tags e estrutura semântica
+
+## 🛠️ Tecnologias
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Linguagem**: [TypeScript](https://www.typescriptlang.org/)
+- **Estilização**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animações**: [Framer Motion](https://www.framer.com/motion/)
+- **Ícones**: [Lucide React](https://lucide.dev/)
+- **Deploy**: [Vercel](https://vercel.com/)
+
+## 🎨 Design
+
+### Paleta de Cores
+
+| Cor | Código | Uso |
+|-----|--------|-----|
+| Background | `#0A0A0A` | Fundo principal |
+| Surface | `#141414` | Cards e seções |
+| Text Primary | `#FFFFFF` | Títulos e texto principal |
+| Text Secondary | `#A1A1AA` | Descrições |
+| Accent | `#8B5CF6` | Destaques e botões |
+| Accent Hover | `#A78BFA` | Hover states |
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+
+- Node.js 18+ 
+- npm ou yarn
+
+### Instalação
 
 ```bash
+# Clone o repositório
+git clone https://github.com/irdw0-dev/irdw0.dev.git
+
+# Entre no diretório
+cd irdw0.dev
+
+# Instale as dependências
+npm install
+
+# Execute em modo de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Criar build de produção
+npm run build
 
-## Learn More
+# O build estático será gerado na pasta `dist/`
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Estrutura do Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+my-app/
+├── src/
+│   ├── app/                 # Páginas Next.js
+│   │   ├── globals.css      # Estilos globais
+│   │   ├── layout.tsx       # Layout principal
+│   │   └── page.tsx         # Página inicial
+│   ├── components/          # Componentes React
+│   │   ├── Contact.tsx      # Seção de contato
+│   │   ├── Hero.tsx         # Seção hero
+│   │   ├── ProjectCard.tsx  # Card de projeto
+│   │   ├── Projects.tsx     # Grid de projetos
+│   │   ├── Skills.tsx       # Seção de habilidades
+│   │   └── SpotlightBackground.tsx  # Fundo interativo
+│   ├── lib/
+│   │   └── github.ts        # Funções da API GitHub
+│   └── types/
+│       └── index.ts         # Tipagens TypeScript
+├── dist/                    # Build estático
+├── next.config.ts           # Configuração Next.js
+├── package.json
+└── tsconfig.json
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📱 Seções
 
-## Deploy on Vercel
+1. **Hero**: Apresentação com foto, nome, bio e links sociais
+2. **Projetos**: Grid dos repositórios GitHub com cards interativos
+3. **Habilidades**: Tecnologias e ferramentas (C#, Java, JavaScript, etc.)
+4. **Contato**: Links para GitHub, LinkedIn e email
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔧 Configuração
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Variáveis de Ambiente
+
+Crie um arquivo `.env.local` na raiz:
+
+```env
+# Opcional: Token do GitHub para aumentar rate limit
+GITHUB_TOKEN=seu_token_aqui
+```
+
+### Personalização
+
+Edite os arquivos em `src/components/` para personalizar:
+- `Hero.tsx`: Nome, bio e links
+- `Skills.tsx`: Tecnologias exibidas
+- `Contact.tsx`: Informações de contato
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👤 Autor
+
+**Felipe Reis**
+
+- GitHub: [@irdw0-dev](https://github.com/irdw0-dev)
+- LinkedIn: [lipecoding](https://linkedin.com/in/lipecoding)
+- Website: [irdw0.dev](https://my-app-eight-weld-88.vercel.app)
+
+---
+
+⭐ Se você gostou deste projeto, deixe uma star no repositório!
